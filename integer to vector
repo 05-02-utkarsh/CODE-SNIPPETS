@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    vector<int>v;
+    int num,r;
+    cin>>num;                 //num!=0        
+    
+     while(num){
+             r=num%10;             //3
+             num/=10;              //12
+            v.emplace_back(r);     
+            
+             }
+    
+    for(auto it:v){
+        cout<<it<<endl;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
